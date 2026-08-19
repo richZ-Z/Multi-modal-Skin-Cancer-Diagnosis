@@ -1,0 +1,18 @@
+# PyTorch — install via the official selector for your CUDA version:
+# https://pytorch.org/get-started/locally/
+# e.g. for CUDA 12.1:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# e.g. for CPU-only:   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+numpy
+pandas
+Pillow
+scikit-learn>=1.2
+# Visualisation (evaluate.py)
+matplotlib
+seaborn
+# Experiment tracking & hyperparameter sweeps
+wandb
+# Dataset download
+kaggle
+python-dotenv
